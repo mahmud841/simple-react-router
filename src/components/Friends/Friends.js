@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Friend from '../Friend/Friend';
 import './Friends.css';
 
-const Friends = () => {
+const 
+Friends = () => {
   const [friends, setFriends] = useState([]);
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/users')
